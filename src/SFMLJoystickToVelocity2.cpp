@@ -104,24 +104,6 @@ RTC::ReturnCode_t SFMLJoystickToVelocity2::onInitialize()
   return RTC::RTC_OK;
 }
 
-/*
-RTC::ReturnCode_t SFMLJoystickToVelocity2::onFinalize()
-{
-  return RTC::RTC_OK;
-}
-*/
-
-
-//RTC::ReturnCode_t SFMLJoystickToVelocity2::onStartup(RTC::UniqueId /*ec_id*/)
-//{
-//  return RTC::RTC_OK;
-//}
-
-
-//RTC::ReturnCode_t SFMLJoystickToVelocity2::onShutdown(RTC::UniqueId /*ec_id*/)
-//{
-//  return RTC::RTC_OK;
-//}
 
 
 RTC::ReturnCode_t SFMLJoystickToVelocity2::onActivated(RTC::UniqueId /*ec_id*/)
@@ -132,7 +114,7 @@ RTC::ReturnCode_t SFMLJoystickToVelocity2::onActivated(RTC::UniqueId /*ec_id*/)
 
 RTC::ReturnCode_t SFMLJoystickToVelocity2::onDeactivated(RTC::UniqueId /*ec_id*/)
 {
-  	m_velocity.data.vx = 0;
+  m_velocity.data.vx = 0;
 	m_velocity.data.vy = 0;
 	m_velocity.data.va = 0;
 	m_velocityOut.write();
@@ -144,6 +126,8 @@ RTC::ReturnCode_t SFMLJoystickToVelocity2::onExecute(RTC::UniqueId /*ec_id*/)
 {
   if(m_inIn.isNew()) {
 		m_inIn.read();
+
+
 
 		if(m_in.data.length() <= m_xIndex || m_in.data.length() <= m_thIndex) {
 			std::cout << "[RTC::SFMLJoystickToVelocity] Too short Sequence Input." << std::endl;

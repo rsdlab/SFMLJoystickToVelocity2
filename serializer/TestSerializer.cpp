@@ -18,9 +18,13 @@ public:
     bool serialize(const RTC::TimedVelocity2D& data) override
     {
       geometry_msgs::Twist msg;
-      msg.linear.x = data.data.vx;
-      msg.linear.y = data.data.vy;
-      msg.angular.z = data.data.va;
+      //msg.header.stamp.sec = data.tm.sec;
+      //msg.header.stamp.nsec = data.tm.nsec;
+        msg.linear.x = data.data.vx;
+        msg.linear.y = data.data.vy;
+        msg.angular.z = data.data.va;
+
+      //printf("%f,%f,%f",msg.linear.x,msg.linear.y,msg.angular.z);
       ROSSerializerBase<RTC::TimedVelocity2D>::m_message = ros::serialization::serializeMessage<geometry_msgs::Twist>(msg);
       return true;
       

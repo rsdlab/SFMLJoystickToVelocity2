@@ -28,6 +28,9 @@
         <rtc:Configuration xsi:type="rtcExt:configuration_ext" rtcExt:variableName="xIndex" rtc:unit="" rtc:defaultValue="0" rtc:type="int" rtc:name="xIndex">
             <rtcExt:Properties rtcExt:value="text" rtcExt:name="__widget__"/>
         </rtc:Configuration>
+        <rtc:Configuration xsi:type="rtcExt:configuration_ext" rtcExt:variableName="thIndex" rtc:unit="" rtc:defaultValue="1" rtc:type="int" rtc:name="thIndex">
+            <rtcExt:Properties rtcExt:value="text" rtcExt:name="__widget__"/>
+        </rtc:Configuration>
     </rtc:ConfigurationSet>
     <rtc:DataPorts xsi:type="rtcExt:dataport_ext" rtcExt:position="LEFT" rtcExt:variableName="in" rtc:unit="" rtc:subscriptionType="" rtc:dataflowType="" rtc:interfaceType="" rtc:idlFile="" rtc:type="RTC::TimedLongSeq" rtc:name="in" rtc:portType="DataInPort"/>
     <rtc:DataPorts xsi:type="rtcExt:dataport_ext" rtcExt:position="RIGHT" rtcExt:variableName="velocity" rtc:unit="" rtc:subscriptionType="" rtc:dataflowType="" rtc:interfaceType="" rtc:idlFile="" rtc:type="RTC::TimedVelocity2D" rtc:name="velocity" rtc:portType="DataOutPort"/>
