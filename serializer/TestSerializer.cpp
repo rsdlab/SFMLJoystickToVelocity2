@@ -20,7 +20,7 @@ public:
       geometry_msgs::Twist msg;
       //msg.header.stamp.sec = data.tm.sec;
       //msg.header.stamp.nsec = data.tm.nsec;
-        msg.linear.x = -data.data.va;
+        msg.linear.x = data.data.va;
         msg.linear.y = data.data.vy;
         msg.angular.z = -data.data.vx;
 
@@ -35,7 +35,7 @@ public:
     ros::serialization::deserializeMessage(ROSSerializerBase<RTC::TimedVelocity2D>::m_message, msg);
     data.data.vx = -msg.linear.x;
     data.data.vy = msg.linear.y;
-    data.data.va = -msg.angular.z;
+    data.data.va = msg.angular.z;
     
     return false;
 }
