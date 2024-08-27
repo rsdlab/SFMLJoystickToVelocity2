@@ -1,0 +1,27 @@
+Aug 22 11:16:06.859 INFO: manager: 2.0.2
+Aug 22 11:16:06.859 INFO: manager: Copyright (C) 2003-2024, Noriaki Ando and OpenRTM development team,
+Aug 22 11:16:06.859 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Aug 22 11:16:06.859 INFO: manager: Copyright (C) 2024, Noriaki Ando and OpenRTM development team,
+Aug 22 11:16:06.859 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Aug 22 11:16:06.859 INFO: manager:   All right reserved.
+Aug 22 11:16:06.859 INFO: manager: Manager starting.
+Aug 22 11:16:06.859 INFO: manager: Starting local logging.
+Aug 22 11:16:06.863 WARNING: NamingOnCorba: No endpoint for the CORBA naming service (localhost) was found.
+Aug 22 11:16:06.863 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Aug 22 11:16:06.863 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Aug 22 11:16:06.863 WARNING: ManagerServant: Master manager not found
+Aug 22 11:16:06.864 INFO: LocalServiceAdmin: All the local services are enabled.
+Aug 22 11:16:06.868 ERROR: ModuleManager: Specified symbol TestRos2SerializerInit not found.
+Aug 22 11:16:06.868 ERROR: manager: Symbol not found: TestRos2SerializerInit
+Aug 22 11:16:06.868 INFO: ec_base: setRate(1000000.000000) done
+Aug 22 11:16:06.868 INFO: ec_base: setRate(1000.000000) done
+Aug 22 11:16:06.868 INFO: SFMLJoystickToVelocity20: 1 execution context was created.
+Aug 22 11:16:06.869 INFO: SFMLJoystickToVelocity20: Initial active configuration set is default.
+Aug 22 11:16:06.869 ERROR: manager: SFMLJoystickToVelocity30 not found.
+Aug 22 11:16:16.881 INFO: ManagerServant: Master manager not found
+Aug 22 11:16:26.891 INFO: ManagerServant: Master manager not found
+Aug 22 11:16:36.901 INFO: ManagerServant: Master manager not found
+Aug 22 11:16:46.910 INFO: ManagerServant: Master manager not found
+Aug 22 11:16:56.919 INFO: ManagerServant: Master manager not found
+Aug 22 11:17:06.933 INFO: ManagerServant: Master manager not found
+Aug 22 11:17:16.941 INFO: ManagerServant: Master manager not found

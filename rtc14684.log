@@ -1,0 +1,37 @@
+Aug 22 11:17:25.025 INFO: manager: 2.0.2
+Aug 22 11:17:25.025 INFO: manager: Copyright (C) 2003-2024, Noriaki Ando and OpenRTM development team,
+Aug 22 11:17:25.025 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Aug 22 11:17:25.025 INFO: manager: Copyright (C) 2024, Noriaki Ando and OpenRTM development team,
+Aug 22 11:17:25.025 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Aug 22 11:17:25.025 INFO: manager:   All right reserved.
+Aug 22 11:17:25.025 INFO: manager: Manager starting.
+Aug 22 11:17:25.025 INFO: manager: Starting local logging.
+Aug 22 11:17:25.032 WARNING: NamingOnCorba: No endpoint for the CORBA naming service (localhost) was found.
+Aug 22 11:17:25.032 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Aug 22 11:17:25.032 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Aug 22 11:17:25.033 WARNING: ManagerServant: Master manager not found
+Aug 22 11:17:25.034 INFO: LocalServiceAdmin: All the local services are enabled.
+Aug 22 11:17:25.046 ERROR: ModuleManager: Specified symbol TestRos2SerializerInit not found.
+Aug 22 11:17:25.046 ERROR: manager: Symbol not found: TestRos2SerializerInit
+Aug 22 11:17:25.048 INFO: ec_base: setRate(1000000.000000) done
+Aug 22 11:17:25.048 INFO: ec_base: setRate(1000.000000) done
+Aug 22 11:17:25.048 INFO: SFMLJoystickToVelocity20: 1 execution context was created.
+Aug 22 11:17:25.049 INFO: SFMLJoystickToVelocity20: Initial active configuration set is default.
+Aug 22 11:17:25.050 ERROR: velocity: velocity is illegal marshaling type.
+Aug 22 11:17:25.050 ERROR: velocity: publishInterfaces() in notify_connect() failed.
+Aug 22 11:17:25.050 ERROR: velocity: velocity is illegal marshaling type.
+Aug 22 11:17:25.050 ERROR: velocity: subscribeInterfaces() in notify_connect() failed.
+Aug 22 11:17:25.050 ERROR: velocity: Connection failed. cleanup.
+Aug 22 11:17:25.050 ERROR: velocity: specified connector not found: 38860d11-31b9-4bd5-b054-dddcb5ac4c24
+Aug 22 11:17:25.050 ERROR: manager: Connection error: SFMLJoystickToVelocity20.velocity?interface_type=fast-rtps&marshaling_type=velocity&fast-rtps.topic=velocity
+Aug 22 11:17:35.064 INFO: ManagerServant: Master manager not found
+Aug 22 11:17:45.073 INFO: ManagerServant: Master manager not found
+Aug 22 11:17:55.084 INFO: ManagerServant: Master manager not found
+Aug 22 11:18:05.096 INFO: ManagerServant: Master manager not found
+Aug 22 11:18:15.108 INFO: ManagerServant: Master manager not found
+Aug 22 11:18:25.119 INFO: ManagerServant: Master manager not found
+Aug 22 11:18:35.129 INFO: ManagerServant: Master manager not found
+Aug 22 11:18:45.138 INFO: ManagerServant: Master manager not found
+Aug 22 11:18:55.150 INFO: ManagerServant: Master manager not found
+Aug 22 11:19:05.159 INFO: ManagerServant: Master manager not found
+Aug 22 11:19:15.169 INFO: ManagerServant: Master manager not found

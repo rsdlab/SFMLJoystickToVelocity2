@@ -1,0 +1,27 @@
+Aug 22 11:22:26.675 INFO: manager: 2.0.2
+Aug 22 11:22:26.675 INFO: manager: Copyright (C) 2003-2024, Noriaki Ando and OpenRTM development team,
+Aug 22 11:22:26.675 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Aug 22 11:22:26.675 INFO: manager: Copyright (C) 2024, Noriaki Ando and OpenRTM development team,
+Aug 22 11:22:26.675 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Aug 22 11:22:26.675 INFO: manager:   All right reserved.
+Aug 22 11:22:26.675 INFO: manager: Manager starting.
+Aug 22 11:22:26.675 INFO: manager: Starting local logging.
+Aug 22 11:22:26.689 WARNING: NamingOnCorba: No endpoint for the CORBA naming service (localhost) was found.
+Aug 22 11:22:26.689 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Aug 22 11:22:26.690 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Aug 22 11:22:26.691 WARNING: ManagerServant: Master manager not found
+Aug 22 11:22:26.694 INFO: LocalServiceAdmin: All the local services are enabled.
+Aug 22 11:22:26.708 INFO: ec_base: setRate(1000000.000000) done
+Aug 22 11:22:26.708 INFO: ec_base: setRate(1000.000000) done
+Aug 22 11:22:26.709 INFO: SFMLJoystickToVelocity20: 1 execution context was created.
+Aug 22 11:22:26.709 INFO: SFMLJoystickToVelocity20: Initial active configuration set is default.
+Aug 22 11:22:36.725 INFO: ManagerServant: Master manager not found
+Aug 22 11:22:46.738 INFO: ManagerServant: Master manager not found
+Aug 22 11:22:56.748 INFO: ManagerServant: Master manager not found
+Aug 22 11:23:06.759 INFO: ManagerServant: Master manager not found
+Aug 22 11:23:16.769 INFO: ManagerServant: Master manager not found
+Aug 22 11:23:26.781 INFO: ManagerServant: Master manager not found
+Aug 22 11:23:36.791 INFO: ManagerServant: Master manager not found
+Aug 22 11:23:46.802 INFO: ManagerServant: Master manager not found
+Aug 22 11:23:56.812 INFO: ManagerServant: Master manager not found
+Aug 22 11:24:06.822 INFO: ManagerServant: Master manager not found
