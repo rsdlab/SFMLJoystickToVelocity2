@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/SFMLJoystickToVelocity2Comp.dir/SFMLJoystickToVelocity2Comp.cpp.o CMakeFiles/SFMLJoystickToVelocity2Comp.dir/SFMLJoystickToVelocity2.cpp.o  -o SFMLJoystickToVelocity2Comp  -lpthread -lRTC2 -lomniDynamic4 -lomniORB4 -lomnithread -lrtmCamera2 -lrtmManipulator2 
